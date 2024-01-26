@@ -15,7 +15,7 @@ The following generating algorithms are implemented:
 The following solving algorithms are implemented:
 - Bredth-first search
 - A* (allowing to choose a variety of supporting data structures and with the possibility to fallback to Dijkstra)
-- 
+
 
 ## Repository Structure
 
@@ -42,7 +42,7 @@ conda activate mazes
 ```
 
 
-### 1) Run
+### 1) Generate Maze
 
 To generate a new maze, run:
 
@@ -51,6 +51,8 @@ python generate.py -a ALGORITHM
 ```
 
 where `ALGORITHM` can be any of: `random_depth_first_search`, `random_kruskal`, `random_prim`, `wilson`, `aldous_broder`, `recursive_division`.
+
+### 2) Solve Maze
 
 To solve a maze, run:
 
