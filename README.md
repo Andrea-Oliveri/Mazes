@@ -1,4 +1,4 @@
-﻿# Mage Generators & Solves
+﻿# Maze Generators & Solves
 
 ## Project Overview
 
